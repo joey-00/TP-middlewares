@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/head' , {
+        title : 'inicio secion'
+    }) %>
+</head>
+<body>
+    <%- include('./partials/header') %>
+    <h1>login</h1>
+    <hr>
+    <section class="row">
+        <article>
+            <form action="/admin" method="GET">
+                <div class="mb-3">
+                    <label for="admin" class="form-label">Administrador</label>
+                    <input type="text" class="form-control" id="admin" placeholder="escribe tu nombre" name="admin">
+                  </div>
+                  <button class="btn btn-primary btn-block">
+                        Ingresar
+                  </button>
+            </form>
+        </article>
+    </section>
+            
+
+</body>
+</html>
