@@ -1,6 +1,6 @@
 module.exports = {
-    index : (requ, res) => res.render('index'),
-    admin : (requ, res) => res.render('admin'),
-    notEntry : (requ, res) => res.render('notEntry'),
+    index : (req, res) => res.render('index'),
+    admin : (req, res) => res.render('admin'),
+    notEntry : (req, res) => res.render('notEntry'),
     
 }
